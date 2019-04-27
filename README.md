@@ -4,3 +4,4 @@
 
 NUI JOBS FOR ESX
 
+start esx_jk_jobs in server.cfg
