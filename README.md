@@ -11,8 +11,8 @@ start esx_jk_jobs in server.cfg
 Create new JOB
 
 1 - Into html > ui.html add new code
-                                        -- name job             -- logo job
-EX: <div class="job"><button class="tittle">Into</button><img src="https://image.flaticon.com/icons/svg/307/307894.svg" height="100" width="100"><button id="5" class="interview">Do interview</button></div>
+                                        -- name job         --logo job
+EX: <div class="job"><button class="tittle">Into</button><img src="" height="100" width="100"><button id="5" class="interview">Do interview</button></div>
                               -- id that will be pulled
 
 
