@@ -25,22 +25,22 @@ Citizen.CreateThread(function ()
 end)
 
 RegisterNUICallback('1', function(data, cb)
-	TriggerServerEvent('esx_empregos:setJobt')
+	TriggerServerEvent('esx_jk_jobs:setJobt')
   	cb('ok')
 end)
 
 RegisterNUICallback('2', function(data, cb)
-	TriggerServerEvent('esx_empregos:setJobm')
+	TriggerServerEvent('esx_jk_jobs:setJobm')
   	cb('ok')
 end)
 
 RegisterNUICallback('3', function(data, cb)
-	TriggerServerEvent('esx_empregos:setJobp')
+	TriggerServerEvent('esx_jk_jobs:setJobp')
   	cb('ok')
 end)
 
 RegisterNUICallback('4', function(data, cb)
-	TriggerServerEvent('esx_empregos:setJobn')
+	TriggerServerEvent('esx_jk_jobs:setJobn')
   	cb('ok')
 end)
 
