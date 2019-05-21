@@ -2,7 +2,7 @@ $(function() {
   $(document).keyup(function(e) {
       if (e.keyCode == 27) {
           $(".container-fluid").fadeOut();
-          $.post('http://esx_jk_jobs/fechar', JSON.stringify({}));
+          $.post('http://jk_jobs/fechar', JSON.stringify({}));
       }
   });
   $(document).ready(function() {
@@ -16,25 +16,25 @@ $(function() {
       });
 
       $("#1").click(function() {
-          $.post('http://esx_jk_jobs/1', JSON.stringify({}));
+          $.post('http://jk_jobs/1', JSON.stringify({}));
           2
 
       });
 
       $("#2").click(function() {
-          $.post('http://esx_jk_jobs/2', JSON.stringify({}));
+          $.post('http://jk_jobs/2', JSON.stringify({}));
           2
 
       });
 
       $("#3").click(function() {
-          $.post('http://esx_jk_jobs/3', JSON.stringify({}));
+          $.post('http://jk_jobs/3', JSON.stringify({}));
           2
 
       });
 
       $("#4").click(function() {
-          $.post('http://esx_jk_jobs/4', JSON.stringify({}));
+          $.post('http://jk_jobs/4', JSON.stringify({}));
           2
 
       });
