@@ -1,9 +1,8 @@
-$(function() {
   $(document).keyup(function(e) {
-      if (e.keyCode == 27) {
-          $(".container-fluid").fadeOut();
-          $.post('http://jk_jobs/fechar', JSON.stringify({}));
-      }
+      if (e.key === "Escape") {
+        $('.container-fluid').css('display', 'none');
+        $.post('http://jk_jobs/fechar', JSON.stringify({}));
+   }
   });
   $(document).ready(function() {
       window.addEventListener('message', function(event) {
